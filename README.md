@@ -15,7 +15,6 @@
 - コマンドライン引数の取得方法、操作
   - argparse
   - subparsers
-  
 - ファイル操作
   open(),read(),write(),close()
 
