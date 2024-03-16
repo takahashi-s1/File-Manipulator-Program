@@ -2,6 +2,7 @@
 ## Overview
 簡単なファイル操作を行えるpythonスクリプトです。
 コンピュータ・サイエンス学習サービス[Recursion](https://recursionist.io/)のアウトプットとして作成しました。
+学んだものを活用するため、sysモジュールではなくargparseモジュールを使用しました。
 ## Methods
 
 |  Method  |  USAGE  |
