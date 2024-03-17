@@ -1,4 +1,4 @@
-# file manipulator program
+# using argparse module
 import argparse
 import os
 
