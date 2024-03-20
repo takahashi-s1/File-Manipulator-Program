@@ -7,6 +7,29 @@
 ## 実行方法
 CLIを通して以下のコマンドを入力する事でそれぞれの機能を使用する事ができます。
 
+inputpath にあるファイルを受け取り、outputpath に inputpath の内容を逆にした新しいファイルを作成
+```
+python3 file_manipulator.py reverse input.txt output.txt
+```
+
+inputpath にあるファイルのコピーを作成し、outputpath として保存する
+```
+python3 file_manipulator.py copy input.txt output.txt
+```
+
+inputpath にあるファイルの内容を読み込み、その内容を複製し、複製された内容を inputpath に n 回複製
+```
+python3 file_manipulator.py duplicate-contents input.txt output.txt num_dup
+```
+
+inputpath' にあるファイルの内容から文字列 'needle' を検索し、'needle' の全てを 'newstring' に置き換え
+```
+python3 file_manipulator.py replace-string input.txt output.txt needle new_string
+```
+
+
+以下は機能を表にまとめたものです。
+
 |  機能  |  コマンド  |
 | --------- | --------- |
 |reverse| python3 file_manipulator.py reverse input.txt output.txt|
