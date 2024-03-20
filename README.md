@@ -1,25 +1,26 @@
-# File-Manipulator-Program
-## Overview
-簡単なファイル操作を行えるpythonスクリプトです。
+# FileManipulatorProgram
 コンピュータ・サイエンス学習サービス[Recursion](https://recursionist.io/)のアウトプットとして作成しました。
-学んだものを活用するため、sysモジュールではなくargparseモジュールを使用しました。
-## Methods
 
-|  Method  |  USAGE  |
+## プロジェクトの概要
+簡単なファイル操作を行えるpythonスクリプトです。それぞれに応じたコマンドを入力することで、 ファイル内容を反転させたファイルの出力、 ファイルのコピー、 ファイル内容の繰り返し、 ファイル内検索が出来ます
+
+## 実行方法
+
+|  機能  |  コマンド  |
 | --------- | --------- |
 |reverse| python3 file_manipulator.py reverse input.txt output.txt|
 |copy|python3 file_manipulator.py copy input.txt output.txt|
 |duplicate-contents|python3 file_manipulator.py duplicate-contents input.txt output.txt num_dup|
 |replace|python3 file_manipulator.py replace-string input.txt output.txt needle new_string|
 
-## Lerning Matters
+## 学習
 - コマンドライン引数の取得方法、操作
   - argparse
   - subparsers
 - ファイル操作
   open(),read(),write(),close()
 
-## Reference
+## 参照
 - [実践python argparse](https://chaldene.net/argparse-parseargs)
 - [公式ドキュメント](https://docs.python.org/ja/3/library/argparse.html#argparse.ArgumentTypeError)
 - [コマンドライン引数](https://www.sejuku.net/blog/60106)
