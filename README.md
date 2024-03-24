@@ -1,11 +1,13 @@
 # FileManipulatorProgram
-コンピュータ・サイエンス学習サービス[Recursion](https://recursionist.io/)のアウトプットとして作成しました。
+## 概要
+コンピュータ・サイエンス学習サービスRecursionを利用して独学した内容を、アウトプットして定着させるためにプロジェクトを作成しました。
 
-## プロジェクトの概要
-簡単なファイル操作を行えるpythonスクリプトです。それぞれに応じたコマンドを入力することで、 ファイル内容を反転させたファイルの出力、 ファイルのコピー、 ファイル内容の繰り返し、 ファイル内検索が出来ます
+## 機能
+簡単なファイル操作を行えるpythonスクリプトです。  
+それぞれに応じたコマンドを入力することで、 「ファイル内容を反転させたファイルの出力」「ファイルのコピー」「ファイル内容の繰り返し」「 ファイル内検索」ができます。
 
 ## 実行方法
-CLIを通して以下のコマンドを入力する事でそれぞれの機能を使用する事ができます。
+CLI（コマンドライン）を通して以下のコマンドを入力する事でそれぞれの機能を使用する事ができます。
 
 inputpath にあるファイルを受け取り、outputpath に inputpath の内容を逆にした新しいファイルを作成
 ```
@@ -38,11 +40,12 @@ python3 file_manipulator.py replace-string input.txt output.txt needle new_strin
 |replace|python3 file_manipulator.py replace-string input.txt output.txt needle new_string|
 
 ## 学習
-- コマンドライン引数の取得方法、操作
+- コマンドライン引数の取得
   - argparse
   - subparsers
 - ファイル操作
-  open(),read(),write(),close()
+  - open(),read(),write(),close()
+  - modeパラメータ
 
 ## 参照
 - [実践python argparse](https://chaldene.net/argparse-parseargs)
